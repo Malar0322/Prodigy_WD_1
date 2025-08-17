@@ -1,0 +1,77 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #111; /* Always black/navy bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #f4c430;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    background: #f4c430;
+    color: #111;
+    box-shadow: 0px 4px 10px rgba(244, 196, 48, 0.5);
+}
+
+/* Scroll Effect */
+nav.scrolled {
+    background: #0d1b2a; /* Navy shade on scroll */
+}
+
+/* Page Sections */
+section {
+    height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Gradient backgrounds for sections */
+#home { background: linear-gradient(135deg, #1e3c72, #2a5298); }
+#about { background: linear-gradient(135deg, #43cea2, #185a9d); }
+#services { background: linear-gradient(135deg, #f7971e, #ffd200); color: #333; }
+#contact { background: linear-gradient(135deg, #8e2de2, #4a00e0); }
