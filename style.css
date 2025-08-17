@@ -71,7 +71,7 @@ section {
 }
 
 /* Gradient backgrounds for sections */
-#home { background: linear-gradient(135deg, #1e3c72, #2a5298); }
-#about { background: linear-gradient(135deg, #43cea2, #185a9d); }
-#services { background: linear-gradient(135deg, #f7971e, #ffd200); color: #333; }
-#contact { background: linear-gradient(135deg, #8e2de2, #4a00e0); }
+#home { background: linear-gradient(135deg, #6d91d3ff, #2553a2); }
+#about { background: linear-gradient(135deg, #364493, #185a9d); }
+#services { background: linear-gradient(135deg, #56306a, #c464e4); color: #f0f0f0; }
+#contact { background: linear-gradient(135deg, #cc7cdd, #e47cba); }
