@@ -14,4 +14,3 @@ The navigation bar stays visible at the top of the page across all sections.
 - Fully responsive and modern design.  
 - Built with pure HTML, CSS, and JavaScrip(no frameworks).  
 
-<img width="1899" height="875" alt="image" src="https://github.com/user-attachments/assets/b3ea596c-fe36-46e2-8d71-9ed436eb3808" />
